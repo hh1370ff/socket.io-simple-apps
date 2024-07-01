@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.js"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="up">
+        <h1 id="account">Account name</h1>
+        <input type="text" id="usernameInput" />
+      </div>
+      <div class="wrapper">
+        <div class="left">
+          <div class="default">
+            <h2>default</h2>
+            <button class="join">join</button><button class="ping">ping</button>
+          </div>
+          <div class="users">
+            <h2>Users</h2>
+            <ul class="users-list"></ul>
+          </div>
+          <div class="Events">
+            <h2>Events</h2>
+            <ul class="events-list"></ul>
+          </div>
+        </div>
+        <div class="right">
+          <div class="default">
+            <h2>VIP</h2>
+            <button class="join">join</button><button class="ping">ping</button>
+          </div>
+          <div class="users">
+            <h2>Users</h2>
+            <ul class="users-list"></ul>
+          </div>
+          <div class="Events">
+            <h2>Events</h2>
+            <ul class="events-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="namespace.js"></script>
+  </body>
+</html>
